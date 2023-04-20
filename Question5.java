@@ -29,11 +29,11 @@ public class Question5
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+    /*System.out.print("Enter a number: ");*/
     int amount = in.nextInt();
     ArrayList<Integer> data = new ArrayList<>();
     for(int i = 0; i < amount; i++){
-      System.out.print("Enter a number "+ amount + " times: ");
+      /*System.out.print("Enter a number "+ amount + " times: ");*/
       Integer numbers = in.nextInt();
       data.add(numbers);
     }
@@ -57,7 +57,9 @@ public class Question5
       }
     }
 
-    System.out.println("The mode is " + mode);
+    /*System.out.println("The mode is " + mode);*/
+
+    System.out.println(mode)
   }
 
 }
