@@ -18,7 +18,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+    /*System.out.print("Enter a number: ");*/
     double amount = in.nextDouble();
     for(int i = 0;i < amount; i++){
       for(int y = 0;y < amount - i; y++){
